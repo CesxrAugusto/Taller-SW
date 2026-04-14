@@ -6,6 +6,7 @@ const imagen = document.getElementById("imagen");
 imagen.src = pelicula.imagen;
 
 document.getElementById("caracteristicas").innerHTML = `
+  <p><strong>Características</strong></p>
   <p> - <strong>Director:</strong> ${pelicula.director}</p>
   <p> - <strong>Calificación IMDB:</strong> ${pelicula.calificacion}</p>
   <p> - <strong>Duración:</strong> ${pelicula.duracion}</p>
